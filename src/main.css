@@ -1,0 +1,11 @@
+@import "tailwindcss";
+@theme {
+    --color-primary-color : #CCD4D7 ;
+    --color-secondary-color : #BE965B ; 
+    --color-teriary-color : #3f4f5f ; 
+    --font-lalezar : 'lalezar'
+  }
+  @font-face {
+    font-family: 'lalezar';
+    src: url('../public/fonts/Lalezar-Regular.ttf');
+  }
