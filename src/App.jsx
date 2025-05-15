@@ -16,10 +16,10 @@ export default function App() {
         className="grid grid-cols-10 font-lalezar text-nowrap overflow-hidden"
         dir="rtl"
       >
-        <div className="col-span-4 min-h-screen bg-teriary-color p-5 border-l-secondary-color border-l-2">
+        <div className="col-span-4 min-h-screen bg-teriary-color p-5 border-l-secondary-color border-l-2 ">
           <CategoryName setSelectedCategory={setSelectedCategory} setIsShowWelcome={setIsShowWelcome} />
         </div>
-        <div className="bg-teriary-color col-span-6 px-3">
+        <div className="bg-teriary-color col-span-6 px-1">
           <div className="mt-24 mb-24">
             {isShowWelcome?(
                <h2 className="text-secondary-color text-2xl font-bold">
