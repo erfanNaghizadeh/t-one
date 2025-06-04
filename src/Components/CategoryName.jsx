@@ -17,10 +17,10 @@ export default function CategoryName(props) {
         {MenuData.categories.map((category) => (
           <div
             key={category.id}
-            className="flex items-center justify-center h-full w-full"
+            className="flex items-center justify-center h-full w-full "
             onClick={() => clickHandler(category.id)}
           >
-            <div className="flex items-center p-3">
+            <div className="flex items-center p-3 hover:cursor-pointer">
               <h2
                 className={`${
                   selectedCategoryId === category.id
